@@ -1,5 +1,5 @@
-#program for finding
-#eigenvalue and eigenvector of a matrix
+# program for finding
+# eigenvalue and eigenvector of a matrix
 
 import numpy as np
 

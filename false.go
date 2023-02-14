@@ -1,3 +1,6 @@
+//false point method for
+//calculation of equations
+
 package main
 
 import (

@@ -15,7 +15,9 @@ def simpson_2_rule(f, a, b, n):
 
 
 def someF(x):
-    return math.e / (1 + x)
+    # return math.e / (1 + x)
+    # return 1 / (1 + math.cos(x))
+    return 1 / (1 + x**2)
 
 
-print(simpson_2_rule(someF, 0, 6, 21))
+print(simpson_2_rule(someF, 0, 6, 6))

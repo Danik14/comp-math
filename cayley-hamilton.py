@@ -1,7 +1,10 @@
-from numpy import array
-from scipy.linalg import funm
-m = array([[5, -2],
-           [1, 2]])
-tmp = funm(m, lambda x: x**2 - 7*x + 12)
+# cayley hamilton method
 
-print(tmp)
+
+# from numpy import array
+# from scipy.linalg import funm
+
+# m = array([[5, -2], [1, 2]])
+# tmp = funm(m, lambda x: )
+
+# print(tmp)

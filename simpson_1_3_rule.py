@@ -1,3 +1,5 @@
+# simpson's 1/3 rule
+
 import math
 
 
@@ -13,7 +15,9 @@ def simpson_1_rule(f, a, b, n):
 
 
 def someF(x):
-    return math.e / (1 + x)
+    # return math.e / (1 + x)
+    # return 1 / (1 + math.cos(x))
+    return math.e**x
 
 
-print(simpson_1_rule(someF, 0, 6, 20))
+print(simpson_1_rule(someF, 0.2, 2.2, 2))

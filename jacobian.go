@@ -1,3 +1,6 @@
+//jacobian method for
+//calculation of equations
+
 package main
 
 import (

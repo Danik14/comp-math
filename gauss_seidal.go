@@ -1,3 +1,6 @@
+//gauss seidal method for
+//calculation of equations
+
 package main
 
 import (

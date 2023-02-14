@@ -1,3 +1,6 @@
+//bisection method for
+//calculation of equations
+
 package main
 
 import (
@@ -6,7 +9,7 @@ import (
 )
 
 func signs(x float64) float64 {
-	return math.Cos(x) - x*math.Pow(math.E, x)
+	return x - math.Pow(math.E, -x)
 }
 
 func bisection(a, b float64) float64 {

@@ -51,5 +51,4 @@ if __name__ == "__main__":
     matrix = np.array([[8, -4, 2], [4, 0, 2], [0, -2, -4]])
     eigenvalues, eigenvectors = eigenvalues_and_vectors(matrix)
     print("Eigenvalues:", eigenvalues)
-    print("Eigenvectors:")
-    print(eigenvectors)
+    print("Eigenvectors:", eigenvectors)
